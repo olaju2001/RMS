@@ -1,8 +1,24 @@
 # Renewable Energy Resource Management System
 
+## Content Overview
+- [Content Overview](#content-overview)
+- [Project Overview](#project-overview)
+- [Documentation](#documentation)
+- [Problem Statement](#problem-statement)
+- [Implemented Solution](#implemented-solution)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Comparison with Original Design](#comparison-with-original-design)
+- [Technical User Guide](docs/TECHNICAL_GUIDE.md)
+
 ## Project Overview
 
 The Resource Management System is a comprehensive Spring Boot-based solution designed to optimize the utilization of renewable energy resources and support energy transition initiatives. This system provides real-time monitoring, analysis, and management of renewable energy sources, helping organizations maximize efficiency while reducing their environmental impact.
+
+## Documentation
+- [Technical User Guide](docs/TECHNICAL_GUIDE.md) - Detailed implementation guide, API documentation, and development setup
+- [API Documentation](http://localhost:8080/swagger-ui.html) - Interactive API documentation
+- [Monitoring Guide](docs/MONITORING.md) - Guide for using Prometheus and Grafana dashboards
 
 ## Problem Statement
 
