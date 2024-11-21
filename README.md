@@ -8,7 +8,6 @@
 - [Implemented Solution](#implemented-solution)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
-- [Comparison with Original Design](#comparison-with-original-design)
 - [Technical User Guide](docs/TECHNICAL_GUIDE.md)
 
 ## Project Overview
@@ -17,8 +16,6 @@ The Resource Management System is a comprehensive Spring Boot-based solution des
 
 ## Documentation
 - [Technical User Guide](docs/TECHNICAL_GUIDE.md) - Detailed implementation guide, API documentation, and development setup
-- [API Documentation](http://localhost:8080/swagger-ui.html) - Interactive API documentation
-- [Monitoring Guide](docs/MONITORING.md) - Guide for using Prometheus and Grafana dashboards
 
 ## Problem Statement
 
@@ -88,26 +85,3 @@ Our microservices-based system addresses these challenges through:
 ### External Integrations
 - Weather API Service
 - Power Grid Systems (planned)
-
-## Comparison with Original Design
-
-### Added Components
-1. Weather monitoring system integration
-2. Kafka-based event processing
-3. JWT authentication
-4. Prometheus/Grafana monitoring
-5. Docker Compose deployment
-6. Flyway database migrations
-
-### Modified Components
-1. Simplified from multi-service to monolithic architecture
-2. Combined analytics and data processing services
-3. Added caching configuration
-4. Enhanced error handling
-5. Implemented comprehensive DTOs and validation
-
-### Pending Components
-1. Power Grid API integration
-2. ELK Stack implementation
-3. Complete user management system
-4. Service discovery (originally planned with Eureka)
